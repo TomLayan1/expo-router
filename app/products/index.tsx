@@ -12,6 +12,7 @@ export default function index() {
       <Link style={{ marginBottom: 12 }} href="/products/best-seller/playstation-5">PlayStation (Best seller)</Link>
       <Link style={{ marginBottom: 12 }} href="/products/deals/black-friday/playstation-5">PlayStation (Deal)</Link>
       <Link style={{ marginBottom: 12 }} href="/products/search/playstation-5">PlayStation (Search)</Link>
+      <Link href="/missing-route">Missing route</Link>
     </View>
   )
 }
