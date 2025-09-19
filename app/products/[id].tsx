@@ -1,7 +1,7 @@
 import { useLocalSearchParams } from 'expo-router';
 import { StyleSheet, Text, View } from 'react-native'
 
-export default function ProductPage() {
+export default function ProductDetails() {
   const { id } = useLocalSearchParams();
   const numericId = parseInt(id as string, 10);
   console.log(typeof id);
